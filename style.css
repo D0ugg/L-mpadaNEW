@@ -2,7 +2,21 @@ header, main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
-button{
+.botao {
     width: 80px;
+    font-size: 1.05em;
+    color: #000000;
+    border: 0;
+    background: #ffeb7b;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    padding: 0.4em 0.7em;
+    cursor: pointer;
+}
+.botao:hover {
+    background: #fff8cb;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
 }
